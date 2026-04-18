@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const BLOG_URL = "http://example.com"
 
-const Paper = (props) => {
+const Paper = (props: { name: string, date: string }) => {
     return (
         <li >
             <Link href={new URL(BLOG_URL + "/" + props.name).toString()} className="font-medium" style={{ margin: '10px' }}>{props.name} ({props.date})</Link>
