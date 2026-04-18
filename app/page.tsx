@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 export default function Home() {
     return (
         <div className="space-y-6">
@@ -30,20 +31,20 @@ export default function Home() {
                     </p>
 
                     <div className="flex gap-4 mt-2">
-                        <a href="https://github.com/cl0udsw1tch" className="underline">
+                        <Link href="https://github.com/cl0udsw1tch" className="underline">
                             GitHub
-                        </a>
+                        </Link>
 
-                        <a href="/cv" className="underline">
+                        <Link href="/cv" className="underline">
                             CV
-                        </a>
+                        </Link>
 
-                        <a href="/papers" className="underline">
+                        <Link href="/papers" className="underline">
                             Papers
-                        </a>
-                        <a href="/projects" className="underline">
+                        </Link>
+                        <Link href="/projects" className="underline">
                             Projects
-                        </a>
+                        </Link>
                     </div>
 
                 </div>
