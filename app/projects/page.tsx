@@ -4,6 +4,27 @@ export default function Projects() {
             <h1 className="text-2xl font-semibold">Projects</h1>
             <ul style={{ listStyleType: 'square' }}>
                 <li>
+                    <h2 className="text-blue-400 ont-medium">rehype-easytex</h2>
+                    <ul className="text-sm" style={{ listStyleType: 'circle' }}>
+                        <li>
+                            To be used with the unified pipeline, along with rehype-katex, for rendering tex within html.
+                        </li>
+                        <li>
+
+                            Use $...$ and $$...$$ directly inside HTML, without manually writing KaTeX wrapper elements.
+
+                        </li>
+                        <li> rehype-easytex is a small rehype plugin that lets you write inline and block math naturally inside text nodes. It converts those expressions into the structure expected by KaTeX, so they work seamlessly with rehype-katex. </li>
+                    </ul>
+                    <a className="text-emerald-900" href='https://github.com/cl0udsw1tch/rehype-easytex' target='_blank' rel='noreferrer noopener'>
+                        github
+                    </a>
+                    <a className="text-purple-600 mx-2" href='https://www.npmjs.com/package/rehype-easytex' target='_blank' rel='noreferrer noopener'>
+                        npm                    </a>
+
+                </li>
+                <br /><br />
+                <li>
                     <h2 className="text-blue-400 ont-medium">LSTM Time Complexity Classifier</h2>
                     <ul className="text-sm" style={{ listStyleType: 'circle' }}>
                         <li>
@@ -11,8 +32,8 @@ export default function Projects() {
                         <li> Proof of concept demostrating the applicability of LSTMs in the age of the transformer architecture, though ideally an LLM would be used for such a task </li>
                         <li>Includes a Java parser to prepare samples into abstract syntax trees, a more regular way of representing tokens</li>
                     </ul>
-                    <a className="text-amber-600" href='https://github.com/cl0udsw1tch/AI-TCP' target='_blank' rel='noreferrer noopener'>
-                        code
+                    <a className="text-emerald-900" href='https://github.com/cl0udsw1tch/AI-TCP' target='_blank' rel='noreferrer noopener'>
+                        github
                     </a>
                 </li>
                 <br /><br />
@@ -26,8 +47,8 @@ export default function Projects() {
                             in python.
                         </li>
                     </ul>
-                    <a className="text-amber-600" href='https://github.com/cl0udsw1tch/NavierStokesSolver' target='_blank' rel='noreferrer noopener'>
-                        code
+                    <a className="text-emerald-900" href='https://github.com/cl0udsw1tch/NavierStokesSolver' target='_blank' rel='noreferrer noopener'>
+                        github
                     </a>
 
                 </li>
@@ -42,8 +63,8 @@ export default function Projects() {
                             Enables manipulation of rendered Blender models via hand signs read by your webcame and processed by a CNN model. It`&apos;`s comprised of two parts, the model code (HandSigns Classifier) and the rendering code (Graphics Engine). </li>
                         <li>CNN self-built for teaching purposes, can be modified to include prebuilt models </li>
                     </ul>
-                    <a className="text-amber-600" href='https://github.com/cl0udsw1tch/aim' target='_blank' rel='noreferrer noopener'>
-                        code
+                    <a className="text-emerald-900" href='https://github.com/cl0udsw1tch/aim' target='_blank' rel='noreferrer noopener'>
+                        github
                     </a>
 
                 </li>
@@ -58,8 +79,8 @@ export default function Projects() {
                         <li>Minimal client implementation to send serialized transactions to the network</li>
                         <li>Proof of work to verify block creation</li>
                     </ul>
-                    <a className="text-amber-600" href='https://github.com/cl0udsw1tch/blockchain' target='_blank' rel='noreferrer noopener'>
-                        code
+                    <a className="text-emerald-900" href='https://github.com/cl0udsw1tch/blockchain' target='_blank' rel='noreferrer noopener'>
+                        github
                     </a>
 
                 </li>
@@ -71,8 +92,8 @@ export default function Projects() {
                         <li>Implemented stream and iterator functionality to handle incoming stock data from a spawned child process</li>
                         <li>Asynchronous data retrieval so the user may use the editor with its single-threaded environment while the plugin runs</li>
                     </ul>
-                    <a className="text-amber-600" href='https://github.com/cl0udsw1tch/vim-ticker' target='_blank' rel='noreferrer noopener'>
-                        code
+                    <a className="text-emerald-900" href='https://github.com/cl0udsw1tch/vim-ticker' target='_blank' rel='noreferrer noopener'>
+                        github
                     </a>
 
                 </li>

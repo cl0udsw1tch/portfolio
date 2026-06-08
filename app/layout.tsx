@@ -1,4 +1,4 @@
-
+import "@dannymichel/proxima-nova";
 import "./globals.css";
 import Navbar from "../components/navbar";
 

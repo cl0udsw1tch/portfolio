@@ -22,7 +22,7 @@
 body {
     background: var(--background);
     color: var(--foreground);
-    font-family: monospace;
+    font-family: "Proxima Nova";
     font-size: 20;
     font-weight: 400;
     font-size: 16;

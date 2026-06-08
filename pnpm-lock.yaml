@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@dannymichel/proxima-nova':
+        specifier: ^4.5.2
+        version: 4.5.2
       next:
         specifier: 16.1.6
         version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -115,6 +118,9 @@ packages:
   '@babel/types@7.29.0':
     resolution: {integrity: sha512-LwdZHpScM4Qz8Xw2iKSzS+cfglZzJGvofQICy7W7v4caru4EaAmyUuO6BGrbyQ2mYV11W0U8j5mBhd14dd3B0A==}
     engines: {node: '>=6.9.0'}
+
+  '@dannymichel/proxima-nova@4.5.2':
+    resolution: {integrity: sha512-g9MQ/IINKPftTNY2PfyNfFZp/K0CxTd06yGU4hpI/REsAQBFtZk5QPml5OjXfTPRYltqjJDdTM+D3FBu7mRjjg==}
 
   '@emnapi/core@1.8.1':
     resolution: {integrity: sha512-AvT9QFpxK0Zd8J0jopedNm+w/2fIzvtPKPjqyw9jwvBaReTTqPBk9Hixaz7KbjimP+QNz605/XnjFcDAL2pqBg==}
@@ -2636,6 +2642,8 @@ snapshots:
     dependencies:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
+
+  '@dannymichel/proxima-nova@4.5.2': {}
 
   '@emnapi/core@1.8.1':
     dependencies:

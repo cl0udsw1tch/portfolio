@@ -9,6 +9,7 @@
         "lint": "eslint"
     },
     "dependencies": {
+        "@dannymichel/proxima-nova": "^4.5.2",
         "next": "16.1.6",
         "react": "19.2.3"
     },

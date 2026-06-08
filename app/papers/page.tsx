@@ -12,6 +12,7 @@ const Paper = (props: { name: string, date: string, blog_route: string }) => {
 }
 
 const papers = [
+    { name: "Tensors", date: "April 7 2026", blog_route: "tensors" },
     { name: "Backpropogation with Tensors", date: "March 1 2026", blog_route: "tensor-backprop" },
     { name: "A Steady State Incompressible Fluid Flow Solver using the SIMPLE method", date: "February 1 2025", blog_route: 'fluid-flow-solver' }
 ]
