@@ -15,8 +15,8 @@ const Paper = (props: { name: string, date: string, blog_route: string }) => {
 const papers = [
     { name: "Tensors-II", date: "April 7 2026", blog_route: "paper/tensors-II" },
     { name: "Tensors-I", date: "April 7 2026", blog_route: "paper/tensors-I" },
-    { name: "Backpropogation with Tensors", date: "March 1 2026", blog_route: "paper/tensor-backprop" },
-    { name: "A Steady State Incompressible Fluid Flow Solver using the SIMPLE method", date: "February 1 2025", blog_route: 'paper/fluid-flow-solver' }
+    { name: "Backpropogation using Tensors", date: "March 1 2026", blog_route: "paper/backpropogation-using-tensors" },
+    { name: "A Steady State Incompressible Fluid Flow Solver using the SIMPLE method", date: "February 1 2025", blog_route: 'paper/SIMPLE-fluid-solver' }
 ]
 
 export default function Papers() {
